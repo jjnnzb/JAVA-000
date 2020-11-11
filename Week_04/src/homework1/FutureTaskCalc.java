@@ -6,7 +6,6 @@ import java.util.concurrent.FutureTask;
 
 public class FutureTaskCalc {
     public static void main(String[] args) {
-        //第一种方式
         long start = System.currentTimeMillis();
         FutureTask<Integer> task = new FutureTask<Integer>(new Callable<Integer>() {
             @Override
